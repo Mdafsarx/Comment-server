@@ -12,7 +12,7 @@ app.use(cors())
 // mongodb
 
 
-var uri = `mongodb://${'mdafsar99009'}:sF5mneEKKJ4d$.-@ac-kkyhebr-shard-00-00.zgmhkd0.mongodb.net:27017,ac-kkyhebr-shard-00-01.zgmhkd0.mongodb.net:27017,ac-kkyhebr-shard-00-02.zgmhkd0.mongodb.net:27017/?ssl=true&replicaSet=atlas-esi3hx-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0`;
+var uri = `mongodb://${process.env.DB_USERNAME}:${process.env.DB_PAS}$.-@ac-kkyhebr-shard-00-00.zgmhkd0.mongodb.net:27017,ac-kkyhebr-shard-00-01.zgmhkd0.mongodb.net:27017,ac-kkyhebr-shard-00-02.zgmhkd0.mongodb.net:27017/?ssl=true&replicaSet=atlas-esi3hx-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0`;
 
 // var uri = `mongodb://${process.env.DB_USERNAME}:${process.env.DB_PAS}@ac-kkyhebr-shard-00-00.zgmhkd0.mongodb.net:27017,ac-kkyhebr-shard-00-01.zgmhkd0.mongodb.net:27017,ac-kkyhebr-shard-00-02.zgmhkd0.mongodb.net:27017/?ssl=true&replicaSet=atlas-esi3hx-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0`;
 
